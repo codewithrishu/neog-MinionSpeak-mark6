@@ -11,7 +11,8 @@ function geturl(text) {
     
 }
 
-function  errorHandler(error) {
+//error handler
+function  errorHandler() {
     alert("Something went wrong with server! please try again later")
     
 }

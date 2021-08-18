@@ -11,6 +11,11 @@ function geturl(text) {
     
 }
 
+function  errorHandler(error) {
+    alert("Something went wrong with server! please try again later")
+    
+}
+
 //processing the url
 function fetchurl()
  {
@@ -25,6 +30,8 @@ function fetchurl()
         outputText.innerText = translatedText
         
     })
+    .catch(errorHandler)
+
   
 }
  
